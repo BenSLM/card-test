@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="assets/output.css">
     <title>Luffy Links</title>
 </head>
 
@@ -68,10 +68,44 @@
         </section>
         <h2 class="text-sky-200 text-center text-base sm:text-2xl font-extralight leading-tight">Futuro Rey de los Piratas. Capitán de los Sombreros de Paja navegando por el Grand Line en busca del One Piece.</h2>
     </header>
-    <main>
-        
+    <main class="pt-4 px-4 text-black"> 
+        <div class="grid grid-cols-3 grid-rows-2 gap-2 w-full">
+            <!-- Gear 2 - col-span-2 -->
+            <a class="relative rounded-3xl overflow-hidden flex flex-col items-start col-span-2 min-h-[180px] bg-cover bg-center bg-[url('https://pbs.twimg.com/media/E7yyOl5XsAEHeNz.jpg')] transition-all duration-300 hover:scale-105 group" href="#">
+                <div class="absolute inset-0 bg-gradient-to-br from-red-500/80 via-red-700/80 to-red-900/90 group-hover:opacity-0 transition-opacity duration-600"></div>
+                <span class="absolute bottom-2 left-4 font-bold text-2xl text-white z-10 group-hover:text-shadow-lg">Gear 2</span>
+                <span class="absolute top-2 left-4 text-xs border rounded-xl px-2 py-1 text-white bg-black/50 z-10">Más rápido</span>
+            </a>
+
+            <!-- Gear 3 - col-span-1 -->
+            <a class="relative rounded-3xl overflow-hidden flex flex-col items-start col-span-1 min-h-[180px] bg-cover bg-center bg-[url('https://static1.cbrimages.com/wordpress/wp-content/uploads/2019/12/Luffy-Gear-Third-Featured.jpg')] transition-all duration-300 hover:scale-105 group" href="#">
+                <div class="absolute inset-0 bg-gradient-to-br from-orange-400/80 via-orange-600/80 to-orange-800/90 group-hover:opacity-0 transition-opacity duration-600"></div>
+                <span class="absolute bottom-2 left-4 font-bold text-2xl text-white z-10">Gear 3</span>
+                <span class="absolute top-2 left-4 text-xs border rounded-xl px-2 py-1 text-white bg-black/50 z-10">Gigante</span>
+            </a>
+
+            <!-- Gear 4 - col-span-1 -->
+            <a class="relative rounded-3xl overflow-hidden flex flex-col items-start col-span-1 min-h-[180px] bg-cover bg-center bg-[url('https://i.pinimg.com/736x/78/ee/dc/78eedc9269c86ff2dd23e0c225e6e77f.jpg')] transition-all duration-300 hover:scale-105 group" href="#">
+                <div class="absolute inset-0 bg-gradient-to-br from-purple-500/80 via-purple-700/80 to-purple-900/90 group-hover:opacity-0 transition-opacity duration-600"></div>
+                <span class="absolute bottom-2 left-4 font-bold text-2xl text-white z-10">Gear 4 Boundman</span>
+                <span class="absolute top-2 left-4 text-xs border rounded-xl px-2 py-1 text-white bg-black/50 z-10">Boundman</span>
+            </a>
+
+            <!-- Gear 4 Snake - col-span-2 -->
+            <a class="relative rounded-3xl overflow-hidden flex flex-col items-start col-span-2 min-h-[180px] bg-cover bg-center bg-[url('https://i.ytimg.com/vi/uYIUWb-c-kI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCFaAoYIZ8pvupo5CUdURq9Odqrzw')] transition-all duration-300 hover:scale-105 group" href="#">
+                <div class="absolute inset-0 bg-gradient-to-br from-green-500/80 via-lime-300/70 to-green-900/90 group-hover:opacity-0 transition-opacity duration-600"></div>
+                <span class="absolute bottom-2 left-4 font-bold text-2xl text-white z-10">Gear 4 Snakeman</span>
+                <span class="absolute top-2 left-4 text-xs border rounded-xl px-2 py-1 text-white bg-black/50 z-10">Snakeman</span>
+            </a>
+            <!-- Gear 5 - col-span-3 -->
+            <a class="relative rounded-3xl overflow-hidden flex flex-col items-start col-span-3 min-h-[180px] bg-cover bg-center bg-[url('https://i.ytimg.com/vi/AQrkZUDImbY/maxresdefault.jpg')] transition-all duration-300 hover:scale-105 group" href="#">
+                <div class="absolute inset-0 bg-gradient-to-br from-white/70 via-yellow-200/70 to-yellow-400/80 group-hover:opacity-0 transition-opacity duration-600"></div>
+                <span class="absolute bottom-2 left-4 font-bold text-2xl text-white z-10">Gear 5</span>
+                <span class="absolute top-2 left-4 text-xs border border-black rounded-xl px-2 py-1 text-black bg-white/70 z-10">Nika</span>
+            </a>
+        </div>
     </main>
-    <footer>
+    <footer class="pt-12">
         <p class="text-white text-center font-medium pb-4">Desarrollado con ❤️ por BenSLM</p>
     </footer>
 </body>
